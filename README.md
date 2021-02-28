@@ -5,10 +5,10 @@
 ./nlm_cuda Seed(0 for random) kernelsToRun(e.g. 1010) N M patch(3/5/..) patchSigma filtSigma blockSize timesToRun printStats
 
 kernelsToRun: Specifies which kernels to run in binary, numbered from 1 to 4. 1 to run 0 to not.  
-  1: Using Global memory  
-  2: Using Global memory coalesced  
-  3: Using Shared memory  
-  4: Using Shared memory coalesced  
+- 1: Using Global memory  
+- 2: Using Global memory coalesced  
+- 3: Using Shared memory  
+- 4: Using Shared memory coalesced  
   
 N/M: Array dimensions.  
 patch: Patch window side size, must be odd.  
