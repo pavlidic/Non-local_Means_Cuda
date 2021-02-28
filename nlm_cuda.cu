@@ -662,7 +662,7 @@ int main(int argc, char const *argv[]){
                "patchSigma filtSigma blockSize timesToRun printStats\n"
                "\nFile filtering usage:\n"
                "9 input arguments (inlcuding executable)\n"
-               "./nlm_cuda csvToRead N M patch(3/5/..) patchSigma filtSigma blockSize"
+               "./nlm_cuda csvToRead N M patch(3/5/..) patchSigma filtSigma blockSize "
                "csvToWrite\n");
         exit(1);
     }
